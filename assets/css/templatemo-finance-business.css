@@ -300,7 +300,7 @@ header .navbar {
 	font-size: 15px;
 	font-weight: 300;
 	letter-spacing: 0.5px;
-	color: black;
+	color: white;
 	transition: all 0.5s;
 	margin-top: 5px;
 }
@@ -387,15 +387,15 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/10.jpg);
+	background-image: url(../images/1.jpg);
 }
 
 .Modern-Slider .item-2 .img-fill {
-	background-image: url(../images/10.jpg);
+	background-image: url(../images/2.jpg);
 }
 
 .Modern-Slider .item-3 .img-fill {
-	background-image: url(../images/10.jpg);
+	background-image: url(../images/3.jpg);
 }
 
 .Modern-Slider .NextArrow{
@@ -407,7 +407,7 @@ header .navbar {
   text-align:center;
   font-size: 36px;
   font-family: 'FontAwesome';
-  color:black;
+  color:white;
   z-index:5;
   outline: none;
   cursor: pointer;
@@ -426,7 +426,7 @@ header .navbar {
   text-align:center;
   font-size: 36px;
   font-family: 'FontAwesome';
-  color:black;
+  color: white;
   z-index:5;
   outline: none;
   cursor: pointer;
@@ -465,14 +465,14 @@ ul.slick-dots {
   font-size: 44px;
   font-weight: 700;
   letter-spacing: 2.5px;
-  color:black;
+  color:white;
   overflow:hidden;
   animation:fadeOutLeft 1s both;
 }
 
 .Modern-Slider .item p {
 	max-width: 570px;
-	color: black;
+	color: white;
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 30px;
@@ -1053,7 +1053,7 @@ footer .contact-form button.filled-button:hover {
 
 .page-heading {
 	text-align: center;
-	background-image: url(../images/10.jpg);
+	background-image: url(../images/2.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1073,7 +1073,7 @@ footer .contact-form button.filled-button:hover {
 	font-size: 15px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	color: black;
+	color: white;
 	display: block;
 }
 
@@ -1337,6 +1337,11 @@ footer .contact-form button.filled-button:hover {
 		border-bottom: none!important;
 	}
 }
+.hexa {
+	background-image: url(../images/hexagon.jpg);
+	
+	background-attachment: fixed;
+}
 
 .logo {
 	justify-content: center;
@@ -1350,4 +1355,11 @@ footer .contact-form button.filled-button:hover {
 }
 .aboveft {
 	text-align: center;
+}
+
+.space {
+	background-color: white;
+	color: white;
+	height: 40px;
+	width: 100%;
 }
