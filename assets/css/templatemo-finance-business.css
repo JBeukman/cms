@@ -729,8 +729,8 @@ ul.slick-dots {
 	color: red;
 }
 .testimonial-item img {
-	max-width: 60px;
-	border-radius: 50%;
+	max-width: 100px;
+	
 	margin: 25px auto 0px auto;
 }
 
@@ -1090,7 +1090,7 @@ footer .contact-form button.filled-button:hover {
 
 .team-item img {
 	width: 40%;
-	height: 200px;
+	height: 250px;
 	overflow: hidden;
 }
 
